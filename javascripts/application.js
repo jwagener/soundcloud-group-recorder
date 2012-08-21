@@ -14,7 +14,8 @@
   $(function() {
     var params;
     SC.initialize({
-      client_id: CLIENT_ID
+      client_id: CLIENT_ID,
+      redirect_uri: REDIRECT_URI
     });
     params = new SC.URI(window.location.toString(), {
       decodeQuery: true
